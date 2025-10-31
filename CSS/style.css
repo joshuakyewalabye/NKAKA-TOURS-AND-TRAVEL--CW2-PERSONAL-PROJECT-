@@ -81,7 +81,9 @@ footer i,
 footer p {
   color: white;
 }
-
+footer a {
+  text-decoration: none;
+}
 footer p {
   padding: 15px;
 }
@@ -132,7 +134,7 @@ footer h5 {
 h2 {
   padding: 20px;
 }
-#mail {
+#mail a {
   padding: 20px;
 }
 .formcontact {
@@ -277,6 +279,12 @@ h2 {
 }
 .FAQ header {
   background-color: white;
+}
+i {
+  text-align: center;
+  padding: 0px 20px;
+  width: 50%;
+  margin: 0 auto;
 }
 /* MEDIA QUERY FOR HOME PAGE TEXT */
 @media (max-width: 550px) {
