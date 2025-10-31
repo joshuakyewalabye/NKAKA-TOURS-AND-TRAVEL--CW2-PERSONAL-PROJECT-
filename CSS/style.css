@@ -365,6 +365,6 @@ h2 {
 }
 @media (max-width: 412px) {
   .about-us-text h2 {
-    font-size: 24px; /* smaller so it fits nicely on two lines */
+    font-size: 24px;
   }
 }
