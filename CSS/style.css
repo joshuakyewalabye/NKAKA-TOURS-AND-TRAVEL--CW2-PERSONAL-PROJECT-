@@ -276,6 +276,42 @@ h2 {
 .FAQ header {
   background-color: white;
 }
+/* MEDIA QUERY FOR HOME PAGE TEXT */
+@media (max-width: 550px) {
+  .introduce p {
+    padding: 0px;
+    width: 75%;
+    margin: 0 auto;
+    line-height: 1.2;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 550px) {
+  .introduce h1 {
+    padding: 0px;
+    font-size: 35px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 550px) {
+  .introduce h2 {
+    padding: 0px;
+    font-size: 25px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 550px) {
+  .intro div {
+    height: auto;
+    width: 88%;
+    margin: 0 auto;
+  }
+}
+
 /* MEDIA QUERY FOR CAROUSEL */
 @media (min-width: 1024px) {
   .carousel {
