@@ -122,9 +122,11 @@ footer h5 {
   text-align: center;
   justify-content: center;
   padding: 30px 40px;
+  width: 100%;
 }
 .about-us-text h2 {
   font-size: 40px;
+  font-weight: 700;
 }
 .about-us-text p,
 h2 {
@@ -351,5 +353,18 @@ h2 {
   }
   .view p {
     width: 100%;
+  }
+}
+@media (max-width: 412px) {
+  .about-us-text p,
+  a {
+    width: 85%;
+    text-align: center;
+    margin: 0% auto;
+  }
+}
+@media (max-width: 412px) {
+  .about-us-text h2 {
+    font-size: 24px; /* smaller so it fits nicely on two lines */
   }
 }
