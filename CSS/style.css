@@ -1,0 +1,319 @@
+* {
+  box-sizing: border-box;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #370617;
+}
+body {
+  background-color: #fff8dc;
+}
+html {
+  height: 100%;
+}
+.banner-video,
+main,
+footer {
+  text-align: center;
+}
+/* HEADER */
+nav li {
+  margin-left: 10px;
+}
+section video {
+  position: static;
+}
+a {
+  text-decoration: none;
+  color: green;
+}
+li {
+  list-style: none;
+  /* HEADER STYLING */
+}
+.logo img {
+  width: 155px;
+  height: 120px;
+}
+.banner-video video {
+  width: 100%;
+  height: auto;
+}
+.intro div {
+  height: auto;
+  width: 55%;
+  margin: 0 auto;
+}
+.introduce h1,
+h2 {
+  color: #006400;
+  padding: 20px;
+}
+.introduce h1 {
+  font-size: 60px;
+}
+.introduce h2 {
+  font-size: 30px;
+}
+.introduce p {
+  padding: 10px 20px 10px 20px;
+}
+#big5 {
+  padding-top: 25px;
+}
+#bottom-paragrapgh {
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: rgba(33, 79, 47, 0.838);
+  height: auto;
+  width: 100%;
+}
+footer img {
+  width: 10%;
+  margin: 20px auto;
+}
+footer h5,
+footer li,
+footer i,
+footer p {
+  color: white;
+}
+
+footer p {
+  padding: 15px;
+}
+footer h5 {
+  font-weight: 500;
+}
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+.view img {
+  transition: transform 0.3s ease;
+}
+
+.view img:hover {
+  transform: translateY(-10px);
+}
+.items-of {
+  transition: transform 0.3s ease;
+}
+
+.items-of:hover {
+  transform: translateY(-10px);
+}
+.albumcontainer img {
+  transition: transform 0.3s ease;
+}
+
+.albumcontainer img:hover {
+  transform: translateY(-10px);
+}
+/* CONTACT US PAGE  */
+
+.about-us-text {
+  text-align: center;
+  justify-content: center;
+  padding: 30px 40px;
+}
+.about-us-text h2 {
+  font-size: 40px;
+}
+.about-us-text p,
+h2 {
+  padding: 20px;
+}
+#mail {
+  padding: 20px;
+}
+.formcontact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+  margin-bottom: 19px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 10pt;
+  border-radius: 4px;
+  align-self: flex-start;
+}
+
+button:hover {
+  background-color: #555;
+}
+.contact-area {
+  padding: 40px 20px;
+}
+/* ABOUT US PAGE STYLING  */
+.nkaka {
+  width: 50%;
+  line-height: 1.6;
+  padding: 10px;
+  margin: 0 auto;
+  padding-bottom: 35px;
+}
+.album {
+  width: 100%;
+}
+.albumcontainer {
+  display: flex;
+  flex-wrap: wrap; /* use this in media queries  */
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+figure {
+  text-align: center;
+}
+figure img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+#thin-image img {
+  height: fit-content;
+}
+#damage {
+  padding-top: 20px;
+}
+/* GORILLA PAGE */
+.view {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 385px;
+}
+.view img {
+  width: 50%;
+  object-fit: cover;
+  margin: 40px;
+  border-radius: 20px;
+}
+#gorilla {
+  flex-wrap: wrap;
+  height: 100%;
+}
+.view div {
+  margin: 15px;
+  width: 55%;
+}
+.view p {
+  padding-top: 30px;
+  width: 60%;
+  margin: 0 auto;
+}
+.view div h2 {
+  margin-bottom: -20px;
+  margin-top: 30px;
+}
+.tin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 40px;
+  padding-bottom: 30px;
+}
+.tin div {
+  width: 30%;
+  border: ridge 12px rgb(233, 153, 5);
+  padding-bottom: 35px;
+  border-radius: 10px;
+  background-color: ivory;
+}
+/* FAQ */
+#benten {
+  padding-bottom: 30px;
+}
+.FAQ main {
+  text-align: center;
+  width: 100%;
+}
+.FAQ main p,
+h2 {
+  width: 70%;
+  margin: 0 auto;
+}
+.FAQ header {
+  background-color: white;
+}
+/* MEDIA QUERY FOR CAROUSEL */
+@media (min-width: 1024px) {
+  .carousel {
+    display: none;
+  }
+}
+/* MEDIA QUERY FOR CARDS  */
+@media (max-width: 955px) {
+  .cards-for-visits .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+/* MEDIA QUERY FOR REVIEWS  */
+@media (max-width: 945px) {
+  .tin,
+  .items-of {
+    flex: 0 0 75%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  .view {
+    display: flex;
+    flex-direction: column;
+  }
+  .view img {
+    width: 75%;
+    margin-bottom: 10px;
+  }
+  .love {
+    flex-direction: column-reverse;
+  }
+  .things {
+    flex-direction: column;
+  }
+  .view p {
+    width: 100%;
+  }
+}
