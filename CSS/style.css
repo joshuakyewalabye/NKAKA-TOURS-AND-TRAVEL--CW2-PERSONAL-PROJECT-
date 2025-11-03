@@ -30,13 +30,20 @@ a {
 }
 li {
   list-style: none;
-  /* HEADER STYLING */
+}
+/* HEADER STYLING */
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background-color: #4b7b59;
 }
 .logo img {
   width: 155px;
   height: 120px;
 }
 .banner-video video {
+  margin-top: 96px;
   width: 100%;
   height: auto;
 }
@@ -67,7 +74,7 @@ h2 {
 }
 
 footer {
-  background-color: rgba(33, 79, 47, 0.838);
+  background-color: #4b7b59;
   height: auto;
   width: 100%;
 }
@@ -129,6 +136,7 @@ footer h5 {
 .about-us-text h2 {
   font-size: 40px;
   font-weight: 700;
+  padding-top: 60px;
 }
 .about-us-text p,
 h2 {
@@ -224,11 +232,13 @@ figure img {
   align-items: center;
   width: 100%;
   min-height: 385px;
+  padding-top: 96px;
 }
 .view img {
   width: 50%;
   object-fit: cover;
   margin: 40px;
+  max-height: 350px;
   border-radius: 20px;
 }
 #gorilla {
@@ -278,7 +288,7 @@ h2 {
   margin: 0 auto;
 }
 .FAQ header {
-  background-color: white;
+  background-color: #4b7b59;
 }
 i {
   text-align: center;
